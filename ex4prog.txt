@@ -1,0 +1,15 @@
+#condicional, exercici 4
+
+numero=$(($RANDOM%10))
+echo $numero
+numero2=$(($RANDOM%10))
+echo $numero2
+if test $numero -gt $numero2
+then
+echo "El primer número és més gran"
+    fi
+if test $numero2 -gt $numero
+then
+echo "El segon número és més gran"
+    fi
+
