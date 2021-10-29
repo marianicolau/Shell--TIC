@@ -1,0 +1,48 @@
+#condicional, exercici 5
+#Maria Nicolau Jaume
+
+echo "Digues el teu nom"
+read nom
+echo "Hola $nom"
+    numero3=$(($RANDOM%10))
+    echo $numero3
+    numero4=$(($RANDOM%10))
+    echo $numero4
+    echo "S'han donat 2 números randoms"
+    echo "Digues un numero"
+    read numero
+    echo "Digues un altre numero"
+    read numero2
+ 
+    if test $numero -gt $numero2
+    then
+echo "El primer numero que has donat és més gran!"
+fi
+
+    echo "És multiplica el primer numero que has donat x2"
+    echo "$((numero*2))"
+ 
+    if test $numero -gt $numero2
+    then
+echo "El primer numero que has donat és més gran!"
+fi
+
+if test $numero2 -gt $numero3
+then
+echo "Entre el segon número que has donat i el primer número random, el número que has donat és més gran"
+fi
+if test $numero3 -gt $numero2
+then
+echo "Entre el segon número que has donat i el primer número random, el número random és més gran"
+fi
+
+if test $numero3 -gt $numero4
+then
+echo "Entre els dos números randoms, el primer és més gran"
+    fi
+if test $numero4 -gt $numero3
+then
+echo "Entre els dos números randoms, el segon número és més gran"
+    fi
+
+
