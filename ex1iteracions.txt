@@ -1,0 +1,10 @@
+#ex1 iteracions
+
+n=10
+
+while (( $n >= 1))
+do
+    echo "Hola $n vegades"
+n=$(( n-1 ))
+done
+
