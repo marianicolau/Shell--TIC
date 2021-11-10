@@ -1,0 +1,10 @@
+#exercici 4 arguments
+
+echo El primer argument és $1
+echo EL segon és $2
+echo El nom del script és $0
+
+
+let suma=$1+$2
+echo "s'han sumat els arguments i el resultat es $suma"
+
