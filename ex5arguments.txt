@@ -1,0 +1,4 @@
+#exercici 5 arguments
+#maria nicolau
+
+echo "El nombre d'arguments passsats és $#"
