@@ -1,0 +1,15 @@
+#problema 1 iteracions
+#maria nicolau
+
+echo "Digues un número"
+    read numero2
+n=1
+
+while (( $n <= 20 ))
+do
+    numero2=$(( numero2+1 ))
+    n=$(( n+1 ))
+    echo "El número és $numero2"
+done
+
+
