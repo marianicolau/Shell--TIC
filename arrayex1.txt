@@ -1,0 +1,7 @@
+#array ex 1
+paraules=(hola bon dia que tal)
+
+for var in ${paraules[@]}
+do
+    echo $var
+done
