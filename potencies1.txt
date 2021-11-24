@@ -1,0 +1,11 @@
+#potències
+#maria nicolau
+
+echo "Benvinguts al programa que calcula potències"
+echo "Digues un numero"
+read numero
+echo "Digues un numero positiu"
+read numero2
+
+echo "El resultat és $(($numero**$numero2))"
+
