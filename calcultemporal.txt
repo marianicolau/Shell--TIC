@@ -1,4 +1,5 @@
 #calcul temporal
+#maria nicolau
 
 echo "Digues un numero en segons, i ho sabras en hores, minuts i segons"
 read numero 
