@@ -14,7 +14,7 @@ d=10
 
 ######################################################
 ######################################################
-#   RELLOTGE, HORA MÀXIMA:
+#   RELLOTGE, HORA MÍNIMA:
 #   EL RELLOTGE TÉ LES POSICIONS:    AB : CD
 #   ON:
 #       - A: HA DE SER ENTRE 0 I 2
